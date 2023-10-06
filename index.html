@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen output">
+        
+        </div>
+        <div class="keyboard">
+            <button onclick="AC()" class="calc-button">AC</button>
+            <button onclick="operation('%')" class="calc-button">%</button>
+            <button onclick="operation('*')" class="calc-button">X</button>
+            <button onclick="operation('/')" class="calc-button">÷</button>
+            <button onclick="operation('-')" class="calc-button">-</button>
+            <button onclick="operation('+')" class="calc-button">+</button>
+            <button onclick="submit()" class="calc-button">=</button>
+            <button onclick="mostrar('.')" class="calc-button js-bumber-button" value=",">,</button>
+            <button onclick="mostrar('1')" class="calc-button js-bumber-button" value="1">1</button>
+            <button onclick="mostrar('2')" class="calc-button js-bumber-button" value="2">2</button>
+            <button onclick="mostrar('3')" class="calc-button js-bumber-button" value="3">3</button>
+            <button onclick="mostrar('4')" class="calc-button js-bumber-button" value="4">4</button>
+            <button onclick="mostrar('5')" class="calc-button js-bumber-button" value="5">5</button>
+            <button onclick="mostrar('6')" class="calc-button js-bumber-button" value="6">6</button>
+            <button onclick="mostrar('7')" class="calc-button js-bumber-button" value="7">7</button>
+            <button onclick="mostrar('8')" class="calc-button js-bumber-button" value="8">8</button>
+            <button onclick="mostrar('9')" class="calc-button js-bumber-button" value="9">9</button>
+            <button onclick="mostrar('0')" class="calc-button js-bumber-button" value="0">0</button>
+        </div>
+    </div>
+    <script src="back.js"></script>
+</body>
+</html>
