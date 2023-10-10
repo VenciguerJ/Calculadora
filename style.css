@@ -7,15 +7,26 @@ body
 .calculator
 {
     display: block;
-    box-sizing: border-box;
     max-width: 90vw;
     width: 300px;
-    height: 350px;
+    height: 370px;
     margin: 100px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px .3px #787c55;
     background-color: #1a131d;
     padding-top: 10px;
+}
+
+#history{
+	display: solid;
+	height: 25px;
+	width: 90%;
+	margin: auto;
+	box-sizing: border-box;
+	color: gray;
+	font-family: 'fira code';
+	font-size: 1.2em;
+	text-align: right;
 }
 
 .screen
@@ -26,7 +37,7 @@ body
     border-left: white solid 2px;
     height: 53px;
     width: 90%;
-    margin: 0px auto 20px;
+    margin: 10px auto 20px;
     background-image: linear-gradient(to bottom, #9c9a9a, rgb(201, 198, 198));
     font-family: 'fira code';
     font-size: 2.4em;
