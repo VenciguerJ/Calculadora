@@ -1,6 +1,5 @@
 var output = document.querySelector('.output');
 var historico = document.querySelector('#history');
-var historico = document.querySelector('#history');
 var botao = document.querySelectorAll('.js-bumber-button');
 
 // maximo de número que aparece na tela é 12
@@ -23,6 +22,7 @@ function getNumber(){ /*utilizar o numero*/
 function operation(o){
 	numero1 = getNumber();
 	limpar();
+	historico.innerHTML = numero1 + o
 	op = o;
 }
 
